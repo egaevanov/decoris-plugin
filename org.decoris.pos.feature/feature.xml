@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.decoris.pos.feature"
+      label="org.decoris.pos.feature"
+      version="1.0.0.qualifier"
+      provider-name="Decoris"
+      plugin="org.decoris.pos">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.adempiere.base" version="3.1.0" match="greaterOrEqual"/>
+      <import plugin="org.adempiere.plugin.utils" version="3.1.0" match="greaterOrEqual"/>
+      <import plugin="org.zkoss.zk.library" version="6.0.0" match="greaterOrEqual"/>
+      <import plugin="org.adempiere.ui" version="3.1.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi.services" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.adempiere.ui.zk" version="3.1.0" match="greaterOrEqual"/>
+      <import plugin="org.decoris.gson"/>
+      <import plugin="org.eclipse.osgi"/>
+   </requires>
+
+   <plugin
+         id="org.decoris.pos"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="org.decoris.gson"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+</feature>
